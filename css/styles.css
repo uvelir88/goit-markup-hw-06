@@ -504,6 +504,7 @@ img {
 .newsletter {
 	display: block;
 }
+
 .newsletter-text {
 	font-weight: 700;
 	font-size: 14px;
@@ -513,10 +514,16 @@ img {
 	color: var(--hero-text-cl);
 	margin-bottom: 20px;
 }
+
+.newsletter-form {
+	display: flex;
+}
+
 .newsletter-label {
 	display: inline-block;
 	margin-right: 12px;
 }
+
 .newsletter-input {
 	width: 358px;
 	height: 50px;
